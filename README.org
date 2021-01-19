@@ -1,0 +1,21 @@
+* Reason on multicore OCaml
+
+  This repo demonstrates Reason on multicore OCaml compiler!
+
+** Setup
+  
+  Uses the =no-effect-syntax= branch of the multicore compiler.
+
+#+BEGIN_SRC bash
+  esy --opam-repository-remote https://github.com/ManasJayanth/multicore-opam \
+    --opam-override-repository-remote https://github.com/ManasJayanth/multicore-esy-opam-overrides 
+#+END_SRC
+
+ - [[https://github.com/ManasJayanth/multicore-opam][Multicore opam]]
+ - [[https://github.com/ManasJayanth/multicore-esy-opam-overrides ][Esy Opam overrides]]
+
+
+** Interesting reads
+
+   1. [[https://sudha247.github.io/2020/10/01/lwt-multicore/][Lwt for multicore]]
+   2. [[https://github.com/ocaml-multicore/ocaml-multicore/wiki/Concurrency-and-parallelism-design-notes#how-many-domains-should-run-on-a-host][Concurrency and Parallelism design notes]]
